@@ -1,0 +1,663 @@
+INFO  22-06-21 17:10:27[main] [BackendApplicationTests:55] - Starting BackendApplicationTests using Java 17.0.2 on Sangui-MacBookPro.local with PID 26022 (started by sangsumo in /Users/sangsumo/Documents/git/uniwear-backend)
+INFO  22-06-21 17:10:27[main] [BackendApplicationTests:639] - The following profiles are active: test
+INFO  22-06-21 17:10:27[background-preinit] [Version:21] - HV000001: Hibernate Validator 6.2.0.Final
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 116 ms. Found 21 JPA repository interfaces.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CartProductGroupRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CartRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ColorRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.DeliveryCaseRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimatePrintRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateProductGroupRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MemberCouponRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MembershipRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.OrderRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PictureRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PointRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintPositionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintSizeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ProductOptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.SupplierRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:10:27[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+INFO  22-06-21 17:10:28[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-06-21 17:10:28[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-06-21 17:10:28[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration boolean -> org.hibernate.type.BooleanType@5aa6da2
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration boolean -> org.hibernate.type.BooleanType@5aa6da2
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5aa6da2
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@640a8f93
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@2f60cbf2
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration yes_no -> org.hibernate.type.YesNoType@67fac095
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration byte -> org.hibernate.type.ByteType@60816371
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration byte -> org.hibernate.type.ByteType@60816371
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@60816371
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration character -> org.hibernate.type.CharacterType@745926c3
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration char -> org.hibernate.type.CharacterType@745926c3
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@745926c3
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration short -> org.hibernate.type.ShortType@1aac0a47
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration short -> org.hibernate.type.ShortType@1aac0a47
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1aac0a47
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration integer -> org.hibernate.type.IntegerType@54bb1194
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration int -> org.hibernate.type.IntegerType@54bb1194
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@54bb1194
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration long -> org.hibernate.type.LongType@455da438
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration long -> org.hibernate.type.LongType@455da438
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@455da438
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration float -> org.hibernate.type.FloatType@40cf6254
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration float -> org.hibernate.type.FloatType@40cf6254
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@40cf6254
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration double -> org.hibernate.type.DoubleType@7848321e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration double -> org.hibernate.type.DoubleType@7848321e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7848321e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@48632f69
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@48632f69
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@e521067
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@e521067
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration string -> org.hibernate.type.StringType@8851ec
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.String -> org.hibernate.type.StringType@8851ec
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@25109608
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@42ecc554
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration url -> org.hibernate.type.UrlType@24aedcc5
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@24aedcc5
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration Duration -> org.hibernate.type.DurationType@464400b3
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@464400b3
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration Instant -> org.hibernate.type.InstantType@4bdb04c8
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4bdb04c8
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@7f012923
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@7f012923
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@25b74370
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@25b74370
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@34beadce
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@34beadce
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@148ab138
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@148ab138
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@601d295
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@601d295
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b35c7aa
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b35c7aa
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration date -> org.hibernate.type.DateType@1cc708a7
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1cc708a7
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration time -> org.hibernate.type.TimeType@3dda8a2e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3dda8a2e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration timestamp -> org.hibernate.type.TimestampType@12f51a65
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@12f51a65
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@12f51a65
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7bf65e0f
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration calendar -> org.hibernate.type.CalendarType@17d2b646
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@17d2b646
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@17d2b646
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3a2bb026
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@79308a2
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration locale -> org.hibernate.type.LocaleType@2987d0fa
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2987d0fa
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration currency -> org.hibernate.type.CurrencyType@915d7c4
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@915d7c4
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@3562e7c7
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3562e7c7
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration class -> org.hibernate.type.ClassType@50bf795f
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@50bf795f
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7c226095
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7c226095
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@a357c3e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration binary -> org.hibernate.type.BinaryType@1716c037
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration byte[] -> org.hibernate.type.BinaryType@1716c037
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration [B -> org.hibernate.type.BinaryType@1716c037
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@63262071
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@63262071
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@63262071
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration row_version -> org.hibernate.type.RowVersionType@41938e1e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration image -> org.hibernate.type.ImageType@5a8d676e
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration characters -> org.hibernate.type.CharArrayType@6ed51944
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration char[] -> org.hibernate.type.CharArrayType@6ed51944
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration [C -> org.hibernate.type.CharArrayType@6ed51944
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1f408ab6
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1f408ab6
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1f408ab6
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration text -> org.hibernate.type.TextType@45707f76
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration ntext -> org.hibernate.type.NTextType@26463a6
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration blob -> org.hibernate.type.BlobType@608b35fa
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@608b35fa
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@77a2688d
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration clob -> org.hibernate.type.ClobType@47198524
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@47198524
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration nclob -> org.hibernate.type.NClobType@1201e064
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1201e064
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5597ca3
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@660296d5
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration serializable -> org.hibernate.type.SerializableType@31ab4859
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration object -> org.hibernate.type.ObjectType@213835b6
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@213835b6
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6248cfab
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5871a482
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@45c90a05
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@296676c4
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@df7d1d4
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@58f7215c
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@55638165
+DEBUG 22-06-21 17:10:28[main] [BasicTypeRegistry:157] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4fa91d5b
+INFO  22-06-21 17:10:28[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  22-06-21 17:10:28[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  22-06-21 17:10:28[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+DEBUG 22-06-21 17:10:28[main] [TypeConfiguration$Scope:149] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@ce2eaa7] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2166c48a]
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.DeliveryCaseType$DeliveryCaseTypeConverter]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.DeliveryCaseType$DeliveryCaseTypeConverter
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.EstimateStatus$EstimateStatusConverter]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.EstimateStatus$EstimateStatusConverter
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.OrderStatus$OrderStatusConverter]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.OrderStatus$OrderStatusConverter
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.MemberType$MemberTypeConverter]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:10:28[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.MemberType$MemberTypeConverter
+DEBUG 22-06-21 17:10:28[main] [EnumType:126] - Using NAMED-based conversion for Enum com.uniwear.backend.enums.Role
+WARN  22-06-21 17:10:28[main] [RootClass:287] - HHH000038: Composite-id class does not override equals(): com.uniwear.backend.entity.ProductOptionGroupId
+WARN  22-06-21 17:10:28[main] [RootClass:290] - HHH000039: Composite-id class does not override hashCode(): com.uniwear.backend.entity.ProductOptionGroupId
+DEBUG 22-06-21 17:10:28[main] [TypeConfiguration$Scope:154] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@ce2eaa7] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@55b74e6b]
+INFO  22-06-21 17:10:29[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+TRACE 22-06-21 17:10:29[main] [TypeConfiguration$Scope:202] - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@55b74e6b] for TypeConfiguration
+INFO  22-06-21 17:10:29[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-06-21 17:10:30[main] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37a522c8, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e42cff9, org.springframework.security.web.header.HeaderWriterFilter@48ca44cd, org.springframework.web.filter.CorsFilter@6ab80ea, org.springframework.security.web.authentication.logout.LogoutFilter@20bd4fd2, com.uniwear.backend.filter.JwtRequestFilter@7c424dfe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@731660c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20382851, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4982b310, org.springframework.security.web.session.SessionManagementFilter@7ee46aaf, org.springframework.security.web.access.ExceptionTranslationFilter@2471cfa0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7aa1e86b]
+INFO  22-06-21 17:10:31[main] [BackendApplicationTests:61] - Started BackendApplicationTests in 4.279 seconds (JVM running for 4.865)
+ERROR 22-06-21 17:10:31[scheduling-1] [TaskUtils$LoggingErrorHandler:95] - Unexpected error occurred in scheduled task
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
+	at com.uniwear.backend.util.RedisUtil.getData(RedisUtil.java:20)
+	at com.uniwear.backend.scheduler.TokenRefreshScheduler.refreshTokenSchedule(TokenRefreshScheduler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:328)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 25 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at io.lettuce.core.DefaultConnectionFuture.get(DefaultConnectionFuture.java:69)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:325)
+	... 30 common frames omitted
+INFO  22-06-21 17:10:31[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+TRACE 22-06-21 17:10:31[SpringApplicationShutdownHook] [TypeConfiguration$Scope:208] - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@55b74e6b] for TypeConfiguration
+DEBUG 22-06-21 17:10:31[SpringApplicationShutdownHook] [TypeConfiguration$Scope:345] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@53ddc5dd] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@55b74e6b]
+INFO  22-06-21 17:10:31[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  22-06-21 17:10:31[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  22-06-21 17:11:03[main] [BackendApplicationTests:55] - Starting BackendApplicationTests using Java 17.0.2 on Sangui-MacBookPro.local with PID 26091 (started by sangsumo in /Users/sangsumo/Documents/git/uniwear-backend)
+INFO  22-06-21 17:11:03[main] [BackendApplicationTests:639] - The following profiles are active: test
+INFO  22-06-21 17:11:03[background-preinit] [Version:21] - HV000001: Hibernate Validator 6.2.0.Final
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 111 ms. Found 21 JPA repository interfaces.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CartProductGroupRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CartRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ColorRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.DeliveryCaseRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimatePrintRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateProductGroupRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MemberCouponRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MembershipRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.OrderRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PictureRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PointRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintPositionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintSizeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ProductOptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.SupplierRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:11:03[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+INFO  22-06-21 17:11:04[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-06-21 17:11:04[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-06-21 17:11:04[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration boolean -> org.hibernate.type.BooleanType@708dfe10
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration boolean -> org.hibernate.type.BooleanType@708dfe10
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@708dfe10
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3739f3c9
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@4fa0ee7e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration yes_no -> org.hibernate.type.YesNoType@1410d645
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration byte -> org.hibernate.type.ByteType@74ce7fdf
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration byte -> org.hibernate.type.ByteType@74ce7fdf
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@74ce7fdf
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration character -> org.hibernate.type.CharacterType@5a13f1f7
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration char -> org.hibernate.type.CharacterType@5a13f1f7
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5a13f1f7
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration short -> org.hibernate.type.ShortType@60816371
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration short -> org.hibernate.type.ShortType@60816371
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@60816371
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration integer -> org.hibernate.type.IntegerType@745926c3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration int -> org.hibernate.type.IntegerType@745926c3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@745926c3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration long -> org.hibernate.type.LongType@1aac0a47
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration long -> org.hibernate.type.LongType@1aac0a47
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1aac0a47
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration float -> org.hibernate.type.FloatType@54bb1194
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration float -> org.hibernate.type.FloatType@54bb1194
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@54bb1194
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration double -> org.hibernate.type.DoubleType@455da438
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration double -> org.hibernate.type.DoubleType@455da438
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@455da438
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@40cf6254
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@40cf6254
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7848321e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7848321e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration string -> org.hibernate.type.StringType@48632f69
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.String -> org.hibernate.type.StringType@48632f69
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@58cda03f
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3bab95ca
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration url -> org.hibernate.type.UrlType@18b40fe6
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@18b40fe6
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration Duration -> org.hibernate.type.DurationType@42ecc554
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@42ecc554
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration Instant -> org.hibernate.type.InstantType@24aedcc5
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@24aedcc5
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@464400b3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@464400b3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4bdb04c8
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4bdb04c8
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7f012923
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7f012923
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@25b74370
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@25b74370
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@34beadce
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@34beadce
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@485451d8
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@485451d8
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration date -> org.hibernate.type.DateType@134abd78
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@134abd78
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration time -> org.hibernate.type.TimeType@6e948f1c
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@6e948f1c
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration timestamp -> org.hibernate.type.TimestampType@6249a08d
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6249a08d
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6249a08d
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2c7ad4f3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration calendar -> org.hibernate.type.CalendarType@68a426c3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@68a426c3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@68a426c3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@416a4275
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@27502e5c
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration locale -> org.hibernate.type.LocaleType@3a2bb026
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3a2bb026
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration currency -> org.hibernate.type.CurrencyType@79308a2
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@79308a2
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2987d0fa
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2987d0fa
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration class -> org.hibernate.type.ClassType@915d7c4
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@915d7c4
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3562e7c7
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3562e7c7
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@42576db9
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration binary -> org.hibernate.type.BinaryType@4f402027
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration byte[] -> org.hibernate.type.BinaryType@4f402027
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration [B -> org.hibernate.type.BinaryType@4f402027
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7740b0ab
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7740b0ab
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7740b0ab
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration row_version -> org.hibernate.type.RowVersionType@1716c037
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration image -> org.hibernate.type.ImageType@135e49b2
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration characters -> org.hibernate.type.CharArrayType@13e1e816
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration char[] -> org.hibernate.type.CharArrayType@13e1e816
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration [C -> org.hibernate.type.CharArrayType@13e1e816
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5a8d676e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5a8d676e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5a8d676e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration text -> org.hibernate.type.TextType@525b8922
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration ntext -> org.hibernate.type.NTextType@60c98f25
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration blob -> org.hibernate.type.BlobType@45707f76
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@45707f76
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@26463a6
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration clob -> org.hibernate.type.ClobType@608b35fa
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@608b35fa
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration nclob -> org.hibernate.type.NClobType@14e3d439
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@14e3d439
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@47198524
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1d55dd21
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration serializable -> org.hibernate.type.SerializableType@5597ca3
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration object -> org.hibernate.type.ObjectType@a84338a
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@a84338a
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5f3f3d00
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1a6dc5ea
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@31d4b3e8
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@278de2b2
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1fc1c7e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@75cacb3e
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@61957d9c
+DEBUG 22-06-21 17:11:04[main] [BasicTypeRegistry:157] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@29c59b6e
+INFO  22-06-21 17:11:04[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  22-06-21 17:11:04[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  22-06-21 17:11:04[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+DEBUG 22-06-21 17:11:04[main] [TypeConfiguration$Scope:149] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6ea3a513] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3c4059a]
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.DeliveryCaseType$DeliveryCaseTypeConverter]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.DeliveryCaseType$DeliveryCaseTypeConverter
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.EstimateStatus$EstimateStatusConverter]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.EstimateStatus$EstimateStatusConverter
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.OrderStatus$OrderStatusConverter]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.OrderStatus$OrderStatusConverter
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.MemberType$MemberTypeConverter]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:11:04[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.MemberType$MemberTypeConverter
+DEBUG 22-06-21 17:11:04[main] [EnumType:126] - Using NAMED-based conversion for Enum com.uniwear.backend.enums.Role
+WARN  22-06-21 17:11:04[main] [RootClass:287] - HHH000038: Composite-id class does not override equals(): com.uniwear.backend.entity.ProductOptionGroupId
+WARN  22-06-21 17:11:04[main] [RootClass:290] - HHH000039: Composite-id class does not override hashCode(): com.uniwear.backend.entity.ProductOptionGroupId
+DEBUG 22-06-21 17:11:04[main] [TypeConfiguration$Scope:154] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6ea3a513] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@745cf754]
+INFO  22-06-21 17:11:05[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+TRACE 22-06-21 17:11:05[main] [TypeConfiguration$Scope:202] - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@745cf754] for TypeConfiguration
+INFO  22-06-21 17:11:05[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-06-21 17:11:06[main] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@120f441c, org.springframework.security.web.context.SecurityContextPersistenceFilter@cee1b4c, org.springframework.security.web.header.HeaderWriterFilter@62267a22, org.springframework.web.filter.CorsFilter@2407f1a8, org.springframework.security.web.authentication.logout.LogoutFilter@20e1ce62, com.uniwear.backend.filter.JwtRequestFilter@eb5471c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e02cc02, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bbc9862, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fc94125, org.springframework.security.web.session.SessionManagementFilter@f5475d7, org.springframework.security.web.access.ExceptionTranslationFilter@71e064b2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6267b25a]
+INFO  22-06-21 17:11:07[main] [BackendApplicationTests:61] - Started BackendApplicationTests in 3.903 seconds (JVM running for 4.499)
+ERROR 22-06-21 17:11:07[scheduling-1] [TaskUtils$LoggingErrorHandler:95] - Unexpected error occurred in scheduled task
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
+	at com.uniwear.backend.util.RedisUtil.getData(RedisUtil.java:20)
+	at com.uniwear.backend.scheduler.TokenRefreshScheduler.refreshTokenSchedule(TokenRefreshScheduler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:328)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 25 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at io.lettuce.core.DefaultConnectionFuture.get(DefaultConnectionFuture.java:69)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:325)
+	... 30 common frames omitted
+INFO  22-06-21 17:11:07[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+TRACE 22-06-21 17:11:07[SpringApplicationShutdownHook] [TypeConfiguration$Scope:208] - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@745cf754] for TypeConfiguration
+DEBUG 22-06-21 17:11:07[SpringApplicationShutdownHook] [TypeConfiguration$Scope:345] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4b4e74ff] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@745cf754]
+INFO  22-06-21 17:11:07[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  22-06-21 17:11:07[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  22-06-21 17:12:54[main] [BackendApplicationTests:55] - Starting BackendApplicationTests using Java 17.0.2 on Sangui-MacBookPro.local with PID 26295 (started by sangsumo in /Users/sangsumo/Documents/git/uniwear-backend)
+INFO  22-06-21 17:12:54[main] [BackendApplicationTests:639] - The following profiles are active: test
+INFO  22-06-21 17:12:54[background-preinit] [Version:21] - HV000001: Hibernate Validator 6.2.0.Final
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 110 ms. Found 21 JPA repository interfaces.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CartProductGroupRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CartRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.CategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ColorRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.DeliveryCaseRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimatePrintRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateProductGroupRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.EstimateRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MemberCouponRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.MembershipRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.OrderRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PictureRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PointRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintPositionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintSizeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.PrintTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ProductOptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.ProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.uniwear.backend.repository.SupplierRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+INFO  22-06-21 17:12:55[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+INFO  22-06-21 17:12:55[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-06-21 17:12:55[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  22-06-21 17:12:55[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration boolean -> org.hibernate.type.BooleanType@1a0d313
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration boolean -> org.hibernate.type.BooleanType@1a0d313
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1a0d313
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6335f04a
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@631bc9f4
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration yes_no -> org.hibernate.type.YesNoType@5a13f1f7
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration byte -> org.hibernate.type.ByteType@678586f0
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration byte -> org.hibernate.type.ByteType@678586f0
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@678586f0
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration character -> org.hibernate.type.CharacterType@75dd0f94
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration char -> org.hibernate.type.CharacterType@75dd0f94
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@75dd0f94
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration short -> org.hibernate.type.ShortType@4b3ad7ca
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration short -> org.hibernate.type.ShortType@4b3ad7ca
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4b3ad7ca
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration integer -> org.hibernate.type.IntegerType@1109730f
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration int -> org.hibernate.type.IntegerType@1109730f
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@1109730f
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration long -> org.hibernate.type.LongType@60652518
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration long -> org.hibernate.type.LongType@60652518
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@60652518
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration float -> org.hibernate.type.FloatType@40bf0e15
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration float -> org.hibernate.type.FloatType@40bf0e15
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@40bf0e15
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration double -> org.hibernate.type.DoubleType@f4f843f
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration double -> org.hibernate.type.DoubleType@f4f843f
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@f4f843f
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5fde1d64
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5fde1d64
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3bab95ca
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3bab95ca
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration string -> org.hibernate.type.StringType@18b40fe6
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.String -> org.hibernate.type.StringType@18b40fe6
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1d637673
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@443af394
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration url -> org.hibernate.type.UrlType@74ebd159
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@74ebd159
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration Duration -> org.hibernate.type.DurationType@58182b96
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@58182b96
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration Instant -> org.hibernate.type.InstantType@2e8b24a1
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2e8b24a1
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@601f264d
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@601f264d
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@15e8c040
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@15e8c040
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@382d549a
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@382d549a
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6f106af8
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6f106af8
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@485451d8
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@485451d8
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6dd20ec9
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6dd20ec9
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration date -> org.hibernate.type.DateType@995ad50
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@995ad50
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration time -> org.hibernate.type.TimeType@7c0de229
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7c0de229
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration timestamp -> org.hibernate.type.TimestampType@7657d90b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7657d90b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7657d90b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@33215ffb
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration calendar -> org.hibernate.type.CalendarType@48ae9e8b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@48ae9e8b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@48ae9e8b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7645e64
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@11574592
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration locale -> org.hibernate.type.LocaleType@13234ac9
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@13234ac9
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration currency -> org.hibernate.type.CurrencyType@2513155a
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2513155a
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@66d2885c
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@66d2885c
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration class -> org.hibernate.type.ClassType@29fcfc54
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@29fcfc54
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7ea07516
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7ea07516
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7740b0ab
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration binary -> org.hibernate.type.BinaryType@79b63325
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration byte[] -> org.hibernate.type.BinaryType@79b63325
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration [B -> org.hibernate.type.BinaryType@79b63325
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2d4f67e
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2d4f67e
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2d4f67e
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration row_version -> org.hibernate.type.RowVersionType@5d2e6f62
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration image -> org.hibernate.type.ImageType@74764622
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration characters -> org.hibernate.type.CharArrayType@60c98f25
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration char[] -> org.hibernate.type.CharArrayType@60c98f25
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration [C -> org.hibernate.type.CharArrayType@60c98f25
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@46e388ec
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@46e388ec
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@46e388ec
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration text -> org.hibernate.type.TextType@1f0e2bdc
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration ntext -> org.hibernate.type.NTextType@6c5ae8fd
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration blob -> org.hibernate.type.BlobType@13a268cd
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13a268cd
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@77c692b4
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration clob -> org.hibernate.type.ClobType@67a0ff25
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@67a0ff25
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration nclob -> org.hibernate.type.NClobType@a69f9d
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@a69f9d
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@31b741e2
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6d3163a6
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration serializable -> org.hibernate.type.SerializableType@5ca22e19
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration object -> org.hibernate.type.ObjectType@24a3d414
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@24a3d414
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5871a482
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@45c90a05
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@296676c4
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@df7d1d4
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@58f7215c
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@55638165
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4fa91d5b
+DEBUG 22-06-21 17:12:55[main] [BasicTypeRegistry:157] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7ce30c0b
+INFO  22-06-21 17:12:55[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  22-06-21 17:12:55[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  22-06-21 17:12:55[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+DEBUG 22-06-21 17:12:55[main] [TypeConfiguration$Scope:149] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@304744a1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@73385d3f]
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.DeliveryCaseType$DeliveryCaseTypeConverter]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.DeliveryCaseType$DeliveryCaseTypeConverter
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.EstimateStatus$EstimateStatusConverter]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.EstimateStatus$EstimateStatusConverter
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.OrderStatus$OrderStatusConverter]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.OrderStatus$OrderStatusConverter
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [com.uniwear.backend.enums.MemberType$MemberTypeConverter]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [JavaTypeDescriptorRegistry:40] - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+DEBUG 22-06-21 17:12:56[main] [AttributeConverterTypeAdapter:57] - Created AttributeConverterTypeAdapter -> converted::com.uniwear.backend.enums.MemberType$MemberTypeConverter
+DEBUG 22-06-21 17:12:56[main] [EnumType:126] - Using NAMED-based conversion for Enum com.uniwear.backend.enums.Role
+WARN  22-06-21 17:12:56[main] [RootClass:287] - HHH000038: Composite-id class does not override equals(): com.uniwear.backend.entity.ProductOptionGroupId
+WARN  22-06-21 17:12:56[main] [RootClass:290] - HHH000039: Composite-id class does not override hashCode(): com.uniwear.backend.entity.ProductOptionGroupId
+DEBUG 22-06-21 17:12:56[main] [TypeConfiguration$Scope:154] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@304744a1] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6a116354]
+INFO  22-06-21 17:12:56[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+TRACE 22-06-21 17:12:56[main] [TypeConfiguration$Scope:202] - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6a116354] for TypeConfiguration
+INFO  22-06-21 17:12:56[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-06-21 17:12:58[main] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b56971a, org.springframework.security.web.context.SecurityContextPersistenceFilter@519f6adb, org.springframework.security.web.header.HeaderWriterFilter@c534814, org.springframework.web.filter.CorsFilter@1263422a, org.springframework.security.web.authentication.logout.LogoutFilter@1f953e51, com.uniwear.backend.filter.JwtRequestFilter@6919a8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72bb3f3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ddd71cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3095a6e0, org.springframework.security.web.session.SessionManagementFilter@6a636c62, org.springframework.security.web.access.ExceptionTranslationFilter@20bd4fd2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53ed864c]
+INFO  22-06-21 17:12:58[main] [BackendApplicationTests:61] - Started BackendApplicationTests in 4.194 seconds (JVM running for 4.775)
+ERROR 22-06-21 17:12:58[scheduling-1] [TaskUtils$LoggingErrorHandler:95] - Unexpected error occurred in scheduled task
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
+	at com.uniwear.backend.util.RedisUtil.getData(RedisUtil.java:20)
+	at com.uniwear.backend.scheduler.TokenRefreshScheduler.refreshTokenSchedule(TokenRefreshScheduler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:328)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 25 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at io.lettuce.core.DefaultConnectionFuture.get(DefaultConnectionFuture.java:69)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:325)
+	... 30 common frames omitted
+INFO  22-06-21 17:12:58[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+TRACE 22-06-21 17:12:58[SpringApplicationShutdownHook] [TypeConfiguration$Scope:208] - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6a116354] for TypeConfiguration
+DEBUG 22-06-21 17:12:58[SpringApplicationShutdownHook] [TypeConfiguration$Scope:345] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@52afc840] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6a116354]
+INFO  22-06-21 17:12:58[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  22-06-21 17:12:58[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
